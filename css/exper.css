@@ -1,0 +1,75 @@
+.dzn {
+  text-align: left;
+  font: 400 16px/1.8 "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+  line-height: 1.2;
+  border: 0;
+  vertical-align: baseline;
+  color: #333;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 40px 0 20px !important;
+}
+.exbox {
+  text-align: left;
+  font: 400 16px/1.8 "Josefin Sans", sans-serif;
+  color: #333;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  margin-top: 1.5rem !important;
+  padding: 1.5rem !important;
+  border-radius: 2px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  background: #fff;
+  visibility: visible;
+}
+
+.exbox h5 {
+  text-align: left;
+  font: 400 16px/1.8 "Josefin Sans", sans-serif;
+  visibility: visible;
+  box-sizing: border-box;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  color: #333;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.badge-secondary {
+  background-color: salmon;
+}
+
+.exbox p {
+  text-align: left;
+  font-size: 17px;
+  visibility: visible;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  color: #6e7373;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+}
+.prbg {
+  background-color: salmon;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.skilss label {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+.skilss {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.br {
+  border: 1px solid red;
+}
+
+.headslider {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("https://images.pexels.com/photos/934718/pexels-photo-934718.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  z-index: 10;
+}
+
+.baslik {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.yazi {
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: 8px;
+}
+
+.mainhead {
+  height: 300px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-top: -200px;
+  z-index: 20;
+  border-radius: 10px;
+}
+
+.aboutimage img {
+  height: 200px;
+  margin: 0 auto;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;
+}
+
+.abouttitle {
+  -webkit-tap-highlight-color: transparent;
+  text-align: left;
+  visibility: visible;
+  box-sizing: border-box;
+  line-height: 1.2;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  letter-spacing: 2px;
+  color: #333;
+  margin: 0 0 30px;
+  font-size: 32px;
+  font-weight: 500;
+  position: absolute;
+}
+
+.aboutcontent {
+  -webkit-tap-highlight-color: transparent;
+  position: absolute;
+  text-align: left;
+  visibility: visible;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  color: #6e7373;
+  margin-top: 2.5rem !important;
+  font-weight: 300 !important;
+  font-size: 20px;
+}
+
+.service h3 {
+  font: 400 16px/1.8 "Josefin Sans", sans-serif;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  padding-bottom: 10px;
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #878d8d;
+}
+.service h1 {
+  box-sizing: border-box;
+  line-height: 1.2;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  letter-spacing: 2px;
+  color: #333;
+  margin: 0 0 30px;
+  font-size: 30px;
+  z-index: 1;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  font-weight: 700;
+}
+.servicebox {
+  height: 210px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.servicebox img {
+  height: 200px;
+  margin: 0 auto;
+  width: 100%;
+  object-fit: fill;
+  display: block;
+  z-index: 2;
+  opacity: 0.8;
+}
+
+.servicebox p {
+  box-sizing: border-box;
+  line-height: 1.2;
+  vertical-align: baseline;
+  color: #333;
+  font-weight: 500;
+  padding: 11px 20px;
+  background: #fff;
+  font-size: 14px;
+  border-radius: 2px;
+  font-family: "Open Sans", sans-serif;
+  z-index: 3;
+  letter-spacing: 1px;
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 100px;
+}

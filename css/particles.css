@@ -1,0 +1,16 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#particles-js {
+  height: 100%;
+}
+.particle {
+  z-index: 15;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.hideme {
+  opacity: 0;
+}
